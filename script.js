@@ -1,11 +1,11 @@
 const sampleRoster = {
   forwards: [
     "Macklin Celebrini | C:99, LW:1 | L1:100 | PHOTO: photos/celebrini.jpg",
-    "Ty Dellandrea | IN: 99 | C:70, RW:30 | L3:80, L4:20 | PHOTO: photos/dellandrea.jpg",
+    "Ty Dellandrea | IN: 98 | C:70, RW:30 | L3:80, L4:20 | PHOTO: photos/dellandrea.jpg",
     "Adam Gaudette | RW:100 | L1:10, L2:5, L3:20, L4:65 | PHOTO: photos/gaudette.jpg",
     "Barclay Goodrow | LW:100 | L1:5, L2:20, L3:15, L4:75 | PHOTO: photos/goodrow.jpg",
     "Collin Graf | IN:90 | RW:90, LW:10 | L1:10, L2:20, L3:40, L4:30 | PHOTO: photos/graf.jpg",
-    "Brett Leason | IN: 10 | RW:100 | L3:70, L4:30 | PHOTO: photos/leason.jpg",
+    "Brett Leason | IN: 11 | RW:100 | L3:70, L4:30 | PHOTO: photos/leason.jpg",
     "Filip Bystedt | IN: 11 | C:100 | L3:80, L4:20 | PHOTO: photos/bystedt.jpg",
     "Mason Marchment | LW:90, RW:10 | L1:10, L2:40, L3:40, L4:10 | PHOTO: photos/marchment.jpg",
     "Michael Misa | C:60, LW:40 | L1:10, L2:50, L3:40, L4:10 | PHOTO: photos/misa.jpg",
