@@ -16,20 +16,21 @@ const sampleRoster = {
     "Alexander Wennberg | C:70, LW:30 | L2:50, L3:40, L4:10 | PHOTO: photos/wennberg.jpg",
   ],
   defense: [
-    "Nolan Allan | IN: 40 | PHOTO: photos/allan.jpg",
+    "Nolan Allan | IN: 35 | PHOTO: photos/allan.jpg",
     "Sam Dickinson | LD:100 | L2:70, L3:30 | PHOTO: photos/dickinson.jpg",
-    "Michael Kesselring | IN: 75 | PHOTO: photos/kesselring.jpg",
+    "Michael Kesselring | IN: 65 | PHOTO: photos/kesselring.jpg",
     "Darnell Nurse | LD:100 | L1:80, L2:10, L3:10 | PHOTO: photos/nurse.jpg",
     "Dmitri Orlov | LD:100 | L1:10, L2:20, L3:70 | PHOTO: photos/orlov.jpg",
-    "Jacob Trouba | RD:100 | L1:20, L2:80 | PHOTO: photos/trouba.jpg",
     "Eric Pohlkamp | IN: 40 | PHOTO: photos/polkamp.jpg",
     "Luca Cagnoni | IN: 45 | PHOTO: photos/cagnoni.jpg",
+    "Libor Hájek | IN: 15 | PHOTO: photos/hajek.jpg",
   ],
   goalies: ["Yaroslav Askarov | IN:60 | PHOTO: photos/askarov.jpg", "Alex Nedeljkovic | IN:40 | PHOTO: photos/nedeljkovic.jpg"],
 };
 const injuryReserve = [
   { name: "Igor Chernyshov", photo: "photos/chernyshov.jpg" },
   { name: "Kiefer Sherwood", photo: "photos/sherwood.jpg" },
+  { name: "Jacob Trouba", photo: "photos/trouba.jpg",}
 ];
 
 const forwardLines = document.querySelector("#forward-lines");
