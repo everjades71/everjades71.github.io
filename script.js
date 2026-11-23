@@ -18,7 +18,7 @@ const sampleRoster = {
   defense: [
     "Nolan Allan | IN: 65 | PHOTO: photos/allan.jpg",
     "Sam Dickinson | LD:100 | L2:70, L3:30 | PHOTO: photos/dickinson.jpg",
-    "Michael Kesselring | IN: 75 | PHOTO: photos/kesselring.jpg",
+    "Michael Kesselring | IN: 80 | PHOTO: photos/kesselring.jpg",
     "Darnell Nurse | LD:100 | L1:80, L2:10, L3:10 | PHOTO: photos/nurse.jpg",
     "Dmitri Orlov | LD:100 | L1:10, L2:20, L3:70 | PHOTO: photos/orlov.jpg",
     "Eric Pohlkamp | IN: 80 | PHOTO: photos/polkamp.jpg",
