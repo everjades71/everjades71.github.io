@@ -13,7 +13,7 @@ const sampleRoster = {
     "Ivar Stenberg | LW:100 | L1:20, L2:30, L3:40, L4:10 | PHOTO: photos/stenberg.jpg",
     "Tyler Toffoli | LW:50, RW:50 | L1:10, L2:30, L3:40, L4:20 | PHOTO: photos/toffoli.jpg",
     "Alexander Wennberg | C:70, LW:30 | L2:50, L3:40, L4:10 | PHOTO: photos/wennberg.jpg",
-    "Collin Graf | IN: 60 | RW:99 LW:1 | L1:10, L2:20, L3:40, L4:30 | PHOTO: photos/graf.jpg",
+    "Collin Graf | IN: 60 | RW:99, LW:1 | L1:10, L2:20, L3:40, L4:30 | PHOTO: photos/graf.jpg",
   ],
   defense: [
     "Nolan Allan | IN: 85 | PHOTO: photos/allan.jpg",
