@@ -4,8 +4,8 @@ const sampleRoster = {
     "Ty Dellandrea | IN: 99 | C:70, RW:30 | L3:80, L4:20 | PHOTO: photos/dellandrea.jpg",
     "Adam Gaudette | RW:100 | L1:10, L2:5, L3:20, L4:65 | PHOTO: photos/gaudette.jpg",
     "Barclay Goodrow | LW:100 | L1:5, L2:20, L3:15, L4:75 | PHOTO: photos/goodrow.jpg",
-    "Brett Leason | IN: 50 | RW:100 | L3:70, L4:30 | PHOTO: photos/leason.jpg",
-    "Filip Bystedt | IN: 51 | C:100 | L3:80, L4:20 | PHOTO: photos/bystedt.jpg",
+    "Brett Leason | IN: 30 | RW:100 | L3:70, L4:30 | PHOTO: photos/leason.jpg",
+    "Filip Bystedt | IN: 31 | C:100 | L3:80, L4:20 | PHOTO: photos/bystedt.jpg",
     "Mason Marchment | LW:90, RW:10 | L1:10, L2:40, L3:40, L4:10 | PHOTO: photos/marchment.jpg",
     "Michael Misa | C:60, LW:40 | L1:10, L2:50, L3:40, L4:10 | PHOTO: photos/misa.jpg",
     "Zack Ostapchuk | IN: 100 | C:100 | L1:5, L2:10, L3:10, L4:80 | PHOTO: photos/ostapchuk.jpg",
@@ -13,15 +13,17 @@ const sampleRoster = {
     "Ivar Stenberg | LW:100 | L1:20, L2:30, L3:40, L4:10 | PHOTO: photos/stenberg.jpg",
     "Tyler Toffoli | LW:50, RW:50 | L1:10, L2:30, L3:40, L4:20 | PHOTO: photos/toffoli.jpg",
     "Alexander Wennberg | C:70, LW:30 | L2:50, L3:40, L4:10 | PHOTO: photos/wennberg.jpg",
+    "Collin Graf | IN: 60 | RW:99 : L1:10, L2:20, L3:40, L4:30 | PHOTO: photos/graf.jpg",
   ],
   defense: [
     "Nolan Allan | IN: 85 | PHOTO: photos/allan.jpg",
     "Sam Dickinson | LD:100 | L2:70, L3:30 | PHOTO: photos/dickinson.jpg",
     "Darnell Nurse | LD:100 | L1:80, L2:10, L3:10 | PHOTO: photos/nurse.jpg",
     "Dmitri Orlov | LD:100 | L1:10, L2:20, L3:70 | PHOTO: photos/orlov.jpg",
-    "Eric Pohlkamp | IN: 90 | PHOTO: photos/polkamp.jpg",
-    "Luca Cagnoni | IN: 85 | PHOTO: photos/cagnoni.jpg",
-    "Libor Hájek | IN: 40 | PHOTO: photos/hajek.jpg",
+    "Eric Pohlkamp | IN: 70 | PHOTO: photos/polkamp.jpg",
+    "Luca Cagnoni | IN: 45 | PHOTO: photos/cagnoni.jpg",
+    "Libor Hájek | IN: 30 | PHOTO: photos/hajek.jpg",
+    "Michael Kesselring | IN: 80 | PHOTO: photos/kesselring.jpg",
   ],
   goalies: ["Yaroslav Askarov | IN:60 | PHOTO: photos/askarov.jpg", "Alex Nedeljkovic | IN:40 | PHOTO: photos/nedeljkovic.jpg"],
 };
@@ -29,11 +31,6 @@ const injuryReserve = [
   { name: "Igor Chernyshov", photo: "photos/chernyshov.jpg" },
   { name: "Kiefer Sherwood", photo: "photos/sherwood.jpg" },
   { name: "Jacob Trouba", photo: "photos/trouba.jpg",}
-];
-
-const inJail = [
-  { name: "Colin Graf", photo: "photos/graf.jpg" },
-  { name: "Michael Kesselring", photo: "photos/kesselring.jpg" },
 ];
 
 const forwardLines = document.querySelector("#forward-lines");
@@ -787,7 +784,6 @@ function renderLineup() {
   supportingCards.push(makeCard("Starter", goalies.slice(0, 1), "goalie-card"));
   const reserveCards = [
     makeCard("Injury Reserve", injuryReserve, "injury-reserve-card"),
-    makeCard("In Jail", inJail, "in-jail-card"),
   ];
 
   forwardLines.replaceChildren(...forwardRows);
